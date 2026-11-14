@@ -5,14 +5,13 @@
 >  本工具**仅限解析你自己从 HeidiSQL 导出的配置文件**，仅用于找回自己遗忘的数据库连接密码。
 >  
 >  未经授权获取他人数据库账号密码属于违法行为，全部安全与法律责任由使用者自行承担。
-> 
-> [main.py](src/main.py)  脚本在Windows环境中运行、测试，适配 [python-3.10](https://www.python.org/ftp/python/3.10.0/python-3.10.0rc2-amd64.exe) 程序。
-> 
 
 ## 代码来源说明
 > 本项目脚本基于互联网开源社区、公开论坛公开的代码片段进行整理、修复与改造。
 > 
 > 仅做技术学习演示使用，不代表原作者立场。
+> 
+> [main.py](src/main.py)  脚本在Windows环境中运行、测试，适配 [python-3.10](https://www.python.org/ftp/python/3.10.0/python-3.10.0rc2-amd64.exe) 程序。
 
 ## 📋项目简介
 Python脚本，解析 HeidiSQL 导出的配置文件 `heidisql_settings.cfg`，解密软件加密保存的数据库密码，输出连接信息。
